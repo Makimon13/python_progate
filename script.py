@@ -1,8 +1,12 @@
-fruits = ['apple','banana','orange']
-fruits.append('grape')
-print(fruits)
-fruits[0] = 'cherry'
-print(fruits)
+# 1
 
-for fruit in fruits:
-  print('好きな果物は' + fruit + 'です')
+fruits = {'apple':'りんご','banana':'バナナ'}
+print(fruits['banana'])
+print('appleは' + fruits['apple'] + 'という意味です')
+
+#2
+
+fruits = {'apple': 100, 'banana': 200, 'orange': 400}
+fruits['banana'] = 300
+fruits['grape'] = 500
+print(fruits)
