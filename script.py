@@ -1,12 +1,14 @@
-# 1
+# 02/07/23
+# lesson 7 
+# for loop
+#  fruits = {'apple': 'りんご', 'banana': 'バナナ', 'grape': 'ぶどう'}
 
-fruits = {'apple':'りんご','banana':'バナナ'}
-print(fruits['banana'])
-print('appleは' + fruits['apple'] + 'という意味です')
+#  for makito in fruits:
+#      print(makito + 'は' + fruits[makito] + 'という意味です')
 
-#2
+# lesson 8 while
+# x = 10
 
-fruits = {'apple': 100, 'banana': 200, 'orange': 400}
-fruits['banana'] = 300
-fruits['grape'] = 500
-print(fruits)
+# while x > 0:
+#     print(x)
+#     x -= 1
