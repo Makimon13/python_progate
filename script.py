@@ -48,6 +48,11 @@ for item_name in items:
     if money >= total_price:
         print(item_name + 'を' + input_count + '個買いました')
         money = money - total_price
+
+        if money == 0:
+          print('財布が空になりました')
+          break
     else:
         print('お金が足りません')
         print(item_name + 'を買えませんでした')
+print('残金は' + str(money) + '円です')
